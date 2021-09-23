@@ -1,0 +1,22 @@
+<html>
+    <head></head>
+    <body>
+        <table class="default" align="center">
+            <tr>
+                <th colspan="2">Ejercicio Pokemon</th>
+            </tr>
+            <tr > 
+                <th>Pokemon</th>
+                <th>Peso</th>
+                <th>Altura</th>
+                <th>Foto</th>
+            </tr>
+            <tr>
+                <td><%=pkmon.name%></td>
+                <td><%=pkmon.weight%></td>
+                <td><%=pkmon.height%></td>
+                <td><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/<%=pkmon.id%>.png"></td>
+            </tr>
+        </table>
+    </body>
+</html>
